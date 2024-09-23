@@ -9,10 +9,8 @@ function ProductList() {
     const dispatch = useDispatch();
     const cartItems = useSelector((state) => state.cart.items);
 
-
     const [showCart, setShowCart] = useState(false); 
     const [showPlants, setShowPlants] = useState(false); // State to control the visibility of the About Us page
-    const [addedToCart, setAddedToCart] = useState({}); 
 
     const totalQuantity = useSelector((state) => state.cart.totalQuantity); // Retrieve the total quantity
 
