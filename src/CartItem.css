@@ -139,4 +139,8 @@
     transition: background-color 0.3s ease;
     margin-top: 40px;
   }
+
+  .get-started-button1:hover {
+    background-color: hsl(248, 57%, 35%);
+  }
   
